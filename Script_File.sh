@@ -142,6 +142,8 @@ banaction = iptables-multiport
 # Enable logging to syslog
 logtarget = SYSLOG
 
+findtime = 600
+
 [sshd]
 enabled = true
 port = ssh
