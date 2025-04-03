@@ -125,6 +125,7 @@ setup_fail2ban() {
     
     # Backup the configuration file before modifying it
     backup_config "/etc/fail2ban/jail.conf"
+    backup_config "/etc/fail2ban/fail2ban.conf"
     
     info_msg "Configuring Fail2Ban..."
     
